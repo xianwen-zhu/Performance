@@ -23,6 +23,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AF0A792B5CA5E7BDDF648872 /* Pods_Performance_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E849A2F09C4911948934A357 /* Pods_Performance_Tests.framework */; };
 		CD4232FBA2A93788090715F6 /* Pods_Performance_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D515BF0D1801385F91C83035 /* Pods_Performance_Example.framework */; };
+		F74B41F927ED55C500C838E6 /* PERAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F74B41F027ED55B600C838E6 /* PERAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		E849A2F09C4911948934A357 /* Pods_Performance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Performance_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F5C2D8664D50CDCFA3E740 /* Pods-Performance_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Performance_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Performance_Example/Pods-Performance_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F425F34D32C66C9BF8B37C74 /* Pods-Performance_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Performance_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Performance_Example/Pods-Performance_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F74B41DF27ED55B600C838E6 /* PERAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PERAppDelegate.h; sourceTree = "<group>"; };
+		F74B41F027ED55B600C838E6 /* PERAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PERAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				F74B41DF27ED55B600C838E6 /* PERAppDelegate.h */,
+				F74B41F027ED55B600C838E6 /* PERAppDelegate.m */,
 				6003F5A5195388D20070C39A /* PERViewController.h */,
 				6003F5A6195388D20070C39A /* PERViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -428,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5A7195388D20070C39A /* PERViewController.m in Sources */,
+				F74B41F927ED55C500C838E6 /* PERAppDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "PERAppDelegate.h"
 #import "Aspects.h"
 #import "DoraemonBacktraceLogger.h"
 #import "XWANRPingThread.h"
