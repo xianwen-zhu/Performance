@@ -7,12 +7,13 @@
 //
 
 #import "PERAppDelegate.h"
-
+#import "XWPerformance.h"
 @implementation PERAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [XWPerformance start];
     return YES;
 }
 
